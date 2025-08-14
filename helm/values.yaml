@@ -1,0 +1,13 @@
+deployment:
+  svc: true
+  bff: false
+  ui: false
+
+product:
+  info:
+    data:
+      description: "OneCX AI Management"
+      imageUrl: ""
+      iconName: "lock"
+      displayName: "OneCX AI Management"
+      basePath: "/ai-management"
