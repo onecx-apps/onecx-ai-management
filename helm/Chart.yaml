@@ -12,3 +12,13 @@ dependencies:
   repository: oci://ghcr.io/onecx-apps/charts
   condition: "deployment.svc"
   alias: "svc"
+- name: onecx-ai-management-bff
+  version: "*-0"
+  repository: oci://ghcr.io/onecx-apps/charts
+  condition: "deployment.bff"
+  alias: "ui"
+- name: onecx-ai-management-ui
+  version: "*-0"
+  repository: oci://ghcr.io/onecx-apps/charts
+  condition: "deployment.ui"
+  alias: "ui"  
