@@ -1,9 +1,15 @@
 dependencies:
 - name: helm-product
   repository: oci://ghcr.io/onecx/charts
-  version: 0.3.0
+  version: 0.4.0
 - name: onecx-ai-management-svc
   repository: oci://ghcr.io/onecx-apps/charts
-  version: 0.0.0-rc.55
-digest: sha256:e68a67afc2b91f26722fd6e3bad494f04db576d2b5c3d63d85864cbd44e614be
-generated: "2025-06-25T12:44:16.984587623Z"
+  version: 0.0.0-rc.62
+- name: onecx-ai-management-bff
+  repository: oci://ghcr.io/onecx-apps/charts
+  version: 0.0.0-rc.10
+- name: onecx-ai-management-ui
+  repository: oci://ghcr.io/onecx-apps/charts
+  version: 0.0.0-rc.17
+digest: sha256:7f898489ad26fd0410467942f1e5e7faa8d002b86dac44178c8f6ccc28489407
+generated: "2026-02-09T10:39:33.092703812Z"
